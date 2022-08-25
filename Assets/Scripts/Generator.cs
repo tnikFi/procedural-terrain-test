@@ -11,7 +11,7 @@ public class Generator : MonoBehaviour {
 
     public DrawMode drawMode;
 
-    const int chunkSize = 241;
+    public const int chunkSize = 241;
     [Range(0, 6)] public int levelOfDetail;
     
     public int seed;

@@ -254,19 +254,34 @@ MonoBehaviour:
   mapWidth: 100
   mapHeight: 100
   seed: 0
-  noiseScale: 24.72
-  octaves: 10
+  noiseScale: 21.17
+  octaves: 4
   persistance: 0.408
   lacunarity: 2.4
   offset: {x: 0, y: 0}
   autoUpdate: 1
   TerrainTypes:
   - name: Water
-    height: 0.4
+    height: 0.3
     color: {r: 0.17590779, g: 0.21174057, b: 0.6320754, a: 0}
-  - name: Land
-    height: 1
+  - name: Shore
+    height: 0.4
+    color: {r: 0.764151, g: 0.6891155, b: 0.39288896, a: 0}
+  - name: Lowlands
+    height: 0.5
     color: {r: 0.42759827, g: 0.5660378, b: 0.24296905, a: 0}
+  - name: Highlands
+    height: 0.6
+    color: {r: 0.3592047, g: 0.49056602, b: 0.18280526, a: 0}
+  - name: LowMountains
+    height: 0.65
+    color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0}
+  - name: HighMountains
+    height: 0.8
+    color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0}
+  - name: SnowyPeaks
+    height: 1
+    color: {r: 1, g: 1, b: 1, a: 0}
 --- !u!4 &1233757991
 Transform:
   m_ObjectHideFlags: 0
